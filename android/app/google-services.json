@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193274064637",
+    "firebase_url": "https://whiterabbit-53d2e.firebaseio.com",
+    "project_id": "whiterabbit-53d2e",
+    "storage_bucket": "whiterabbit-53d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193274064637:android:ab4bbf879ccb60f2135894",
+        "android_client_info": {
+          "package_name": "com.whiterabbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193274064637-r3j218a0rmjlju9nfqfcevj9951mc7ml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whiterabbit",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "193274064637-ppnh377fvthprtsm47hk77il4uv6ve0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO6jBtlxjzjYSZyhM_Xuiq_UVR1M4HPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193274064637-ppnh377fvthprtsm47hk77il4uv6ve0s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193274064637-ta47svttfo83b7idcilaqhi3ppvgpfhp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.WhiteRabbit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
