@@ -9,14 +9,14 @@ const LoginScreen = ({ navigation })  => {
     const loginState = useSelector(state => state.login);
     const dispatch = useDispatch();
     const { isLoggedIn, isNewUser, isLoggingIn } = loginState;
-    console.log(loginState);
 
+    //component did update
     useEffect(() => {
         if (isLoggedIn) {
             if (isNewUser) navigation.navigate("Main");
             else navigation.navigate("Main");
         }
-    })
+    });
 
     return (
         <View style={styles.buttonContainer}>

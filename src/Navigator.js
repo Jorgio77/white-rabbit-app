@@ -15,10 +15,19 @@ export default function Navigator() {
     const Stack = createStackNavigator();
     const Tab = createBottomTabNavigator();
 
+    const SettingsNavigator = () => {
+        return (
+            <Stack.Navigator mode="modal" headerMode={"none"} initialRouteName={"Settings"}>
+                <Stack.Screen name="Settings" component={SettingsScreen} />
+                <Stack.Screen name="try" component={ChatScreen} />
+            </Stack.Navigator>
+        )   
+    }
+
     const MainNavigator = () => {
         return (
-            <Tab.Navigator initialRouteName={"Events"}>
-                <Tab.Screen name="Settings" component={SettingsScreen} />
+            <Tab.Navigator initialRouteName={"Profiles"}>
+                <Tab.Screen name="Settings" component={SettingsNavigator} />
                 <Tab.Screen name="Events" component={EventsScreen} />
                 <Tab.Screen name="Profiles" component={ProfilesScreen} />
                 <Tab.Screen name="Chat" component={ChatScreen} />
